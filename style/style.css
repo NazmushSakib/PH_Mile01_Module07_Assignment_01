@@ -250,3 +250,71 @@ h4{
   background-position: top left;
 }
 /* !quote end */
+
+/*! opinion section start */
+
+.opinion-section{
+  max-width: 1280px;
+  margin: 80px auto;
+}
+
+.opinion-section h2{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 24px;
+}
+
+.table-container{
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 32px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #c0c0c0;
+  /* padding: 32px; */
+}
+
+thead {
+  background-color: #c6e4d6;
+  color: #333;
+  height: 72px;
+  
+  /* padding: 24px; */
+}
+
+th,
+td {
+  text-align: left;
+  padding: 15px;
+  font-size: 16px;
+  height: 70px;
+  border: 1px solid #c0c0c0;
+}
+
+th {
+  font-weight: bold;
+}
+
+
+
+select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #c6e4d6;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border-color: #0066cc;
+}
+
+/*! opinion section end */
