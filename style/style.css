@@ -1,7 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,28 +10,26 @@
   font-size: 16px;
 }
 
-
 /*! Shared Style */
 
-body{
-  background-color: #F5F5F5;
+body {
+  background-color: #f5f5f5;
 }
- 
-p{
+
+p {
   color: #3e3e3e;
   line-height: 24px;
 }
 
-h4{
+h4 {
   margin-top: 24px;
   margin-bottom: 12px;
   font-size: 20px;
   font-weight: bold;
 }
 
-
 /*! header section style  start*/
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,72 +39,71 @@ h4{
   margin-bottom: 51px;
 }
 
-.btn-sign-in{
+.btn-sign-in {
   padding: 15px 30px;
-  border: 1px solid #006A50;
+  border: 1px solid #006a50;
   border-radius: 8px;
-  color: #006A50;
+  color: #006a50;
   cursor: pointer;
 }
 
-.btn-sign-in:hover{
-  color:#F5F5F5;
-  background-color: #006A50;
+.btn-sign-in:hover {
+  color: #f5f5f5;
+  background-color: #006a50;
 }
 
-.bd{
+.bd {
   font-size: 32px;
   font-weight: bold;
 }
 
 /*? banner section style */
 
-
-.banner{
+.banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #C6E4D6;
+  background-color: #c6e4d6;
   border-radius: 24px;
   max-width: 1280px;
   margin: 20px auto 80px;
   /* padding-left: 60px; */
   /* padding-right: 60px; */
   padding: 100px 60px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.content{
+.content {
   max-width: 50%;
 }
 
-.content h2{
+.content h2 {
   color: #6a7972;
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 16px;
 }
 
-.content h1{
-  color: #0E0E0E;
+.content h1 {
+  color: #0e0e0e;
   font-size: 56px;
   font-weight: bold;
   line-height: 1.4;
   margin-bottom: 24px;
-  
 }
 
-.image-container{
+.image-container {
   max-width: 40%;
 }
 
-.image-container img{
+.image-container img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
 .explore-btn {
-  background-color: #006A50;
+  background-color: #006a50;
   color: #ffffff;
   border: none;
   padding: 17px 34px;
@@ -115,86 +111,84 @@ h4{
   font-weight: 600;
   border-radius: 8px;
   cursor: pointer;
-  
 }
 
 .explore-btn:hover {
   background-color: #00552a;
 }
 
-.hero{
+.hero {
   margin-bottom: ;
 }
 
 /*! header section style ends */
 
 /*! Pillars of Bangladesh style start */
-.pillars h3{
+.pillars h3 {
   font-size: 40px;
   font-weight: bold;
   max-width: 1280px;
   margin: 80px auto 32px;
 }
 
-.pillar-container{
+.pillar-container {
   max-width: 1280px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 24px; 
+  gap: 24px;
   margin: 32px auto 80px;
 }
 
-.pillar-topic
- { 
+.pillar-topic {
   background-color: white;
   border-radius: 16px;
   padding: 24px;
-
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 /* .pillar-topic  */
 
 /*! Pillars of Bangladesh style end */
 
-
 /*! The Vision of Future  start */
 
-.vision-section{
+.vision-section {
   max-width: 1280px;
   margin: 80px auto;
 }
 
-.vision-intro h3{
+.vision-intro h3 {
   font-size: 40px;
   font-weight: bold;
 }
 
-.vision-intro p{
+.vision-intro p {
   margin-top: 24px;
   margin-bottom: 32px;
 }
 
-.card-container{
+.card-container {
   display: flex;
   justify-content: space-between;
   gap: 24px;
 }
 
-.card{
+.card {
   background-color: #d5e1f5;
   border-radius: 16px;
   padding: 32px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.green{
+.green {
   background-color: #c6e4d6;
 }
 
-.yellow{
+.yellow {
   background-color: #f7ebcf;
 }
 
-.learn-more-btn{
+.learn-more-btn {
   background-color: #5490f5;
   color: #fff;
   border: none;
@@ -229,22 +223,23 @@ h4{
 /* ! The Vision of Future end*/
 
 /* !quote start */
-.quote{
+.quote {
   margin-top: 32px;
   margin-bottom: 80px;
   background-color: white;
   padding: 48px 24px;
   border-radius: 16px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.quote h2{
+.quote h2 {
   font-size: 20px;
   font-weight: 600;
   margin-top: 12px;
   margin-bottom: 4px;
 }
 
-.quote p{
+.quote p {
   background-image: url(/assets/quote-bg.png);
   background-repeat: no-repeat;
   background-position: top left;
@@ -253,23 +248,24 @@ h4{
 
 /*! opinion section start */
 
-.opinion-section{
+.opinion-section {
   max-width: 1280px;
   margin: 80px auto;
 }
 
-.opinion-section h2{
+.opinion-section h2 {
   font-size: 40px;
   font-weight: bold;
   padding: 5px;
   margin-bottom: 24px;
 }
 
-.table-container{
+.table-container {
   background-color: #ffffff;
   border-radius: 10px;
   overflow: hidden;
   padding: 32px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 table {
@@ -283,8 +279,6 @@ thead {
   background-color: #c6e4d6;
   color: #333;
   height: 72px;
-  
-  /* padding: 24px; */
 }
 
 th,
@@ -299,8 +293,6 @@ td {
 th {
   font-weight: bold;
 }
-
-
 
 select {
   padding: 10px;
@@ -320,51 +312,52 @@ select:focus {
 /*! opinion section end */
 
 /* ! Recent News Section starts */
-.news-section{
+.news-section {
   max-width: 1280px;
   margin: 80px auto 24px;
 }
 
-.news-intro h2{
+.news-intro h2 {
   font-size: 40px;
   font-weight: bold;
 }
 
-.news-intro p{
+.news-intro p {
   margin-top: 24px;
   margin-bottom: 32px;
 }
 
-.news-card-container{
+.news-card-container {
   display: flex;
-  justify-content:center;
-  align-items:start;
+  justify-content: center;
+  align-items: start;
   gap: 32px;
   background-color: white;
   border-radius: 24px;
   padding: 48px;
   margin-bottom: 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.news-image-container img{
+.news-image-container img {
   width: 408px;
   height: 306px;
   border-radius: 24px;
 }
-.news-title{
+.news-title {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 12px;
 }
-.date-time{
+.date-time {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-.actual-news{
+.actual-news {
   margin-bottom: 32px;
 }
 
-.news-btn{
-  background-color: #006A50;
+.news-btn {
+  background-color: #006a50;
   color: #ffffff;
   border: none;
   padding: 13px 26px;
@@ -377,33 +370,33 @@ select:focus {
   background-color: #00552a;
 }
 
-.card-two{
+.card-two {
   flex-direction: row-reverse;
 }
 
 /* ! Recent News Section ends */
 
 /*! Donate Section start */
-.donate-section{
+.donate-section {
   max-width: 1280px;
   margin: 80px auto;
   text-align: center;
 }
-.donate-intro h2{
+.donate-intro h2 {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 24px;
 }
 
-.donate-intro p{
+.donate-intro p {
   margin-bottom: 32px;
 }
 
-.tk-card-container{
+.tk-card-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   gap: 24px;
 }
 
@@ -414,30 +407,105 @@ select:focus {
   padding: 40px;
   border-radius: 16px;
   cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.tk-card:hover{
+.tk-card:hover {
   background-color: #f7ebcf;
 }
 
-.green-card{
+.green-card {
   background-color: #c6e4d6;
 }
 
-.text-box input{
+.text-box input {
   max-width: 1032px;
   height: 64px;
   margin: 32px auto;
   border: none;
   text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.text-box input{
+.text-box input {
   width: 100%;
 }
 
-.text-box input:hover {
+input:hover {
   background-color: #f7ebcf;
 }
 
 /* ! Donate Section ends */
+
+/*! newsletter section start */
+.newsletter-section {
+  max-width: 1280px;
+  margin: 80px auto;
+  background-color: #c6e4d6;
+  text-align: center;
+  border-radius: 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.newsletter h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 80px;
+}
+
+.para-box p {
+  padding: 16px 329px 24px;
+}
+
+.email-sub {
+  display: flex;
+  justify-content: center;
+}
+
+.email-sub input {
+  max-width: 600px;
+  height: 55px;
+}
+
+.email-sub input {
+  width: 100%;
+  padding: 18px 40px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+
+.email-sub button {
+  border-radius: 0 5px 5px 0;
+}
+
+.disclaimer {
+  padding-top: 24px;
+  padding-bottom: 80px;
+}
+
+/*! newsletter section ends */
+
+.last {
+  padding: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+hr {
+  max-width: 1122px;
+  text-align: center;
+  margin: 32px auto;
+}
+
+.last h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 50px auto 32px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
